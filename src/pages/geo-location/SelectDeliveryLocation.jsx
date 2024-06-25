@@ -35,7 +35,7 @@ const SelectDeliveryLocation = () => {
     <div className="delivery-location-container">
       <button className="delivery-location-button" onClick={getLocation}>
         <span className="location-icon">
-          <i class="fa-solid fa-location-dot"></i>
+          <i className="fa-solid fa-location-dot"></i>
         </span>
         <span>Select Delivery Location</span>
         <span className="arrow-icon">➔</span>

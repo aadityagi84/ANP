@@ -1,0 +1,105 @@
+.banner-clone {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-banner {
+  position: relative;
+  width: 558px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.main-banner img {
+  width: 100%;
+  transition: all 0.6s ease-in;
+}
+
+.main-banner-content:hover .overlay {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.main-banner-content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+}
+
+.main-banner-content h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.main-banner-content h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.main-banner-content a {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.small-banners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.small-banner {
+  position: relative;
+  width: 48%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.small-bannerr {
+  position: relative;
+  width: 93%;
+  height: 320px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.small-banner img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.6s ease-in;
+}
+
+.small-banner img:hover {
+  transform: scale(1.1);
+}
+
+.small-bannerr img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+
+.small-bannerr img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.small-banner-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: white;
+}
+
+.small-banner-content h3 {
+  /* font-size: 18px; */
+  font-weight: bold;
+  text-align: center;
+}
+
+.small-banner-content p {
+  font-size: 14px;
+}

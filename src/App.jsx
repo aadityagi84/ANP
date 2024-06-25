@@ -1,12 +1,18 @@
+import React from "react";
+import Home from "./Home/Home";
 import Header from "./components/Header";
-import "@fortawesome/fontawesome-free/css/all.css";
-import SelectDeliveryLocation from "./pages/geo-location/SelectDeliveryLocation";
+import Footer from "./components/Footer";
+import "@fontsource/poppins"; // Defaults to weight 400
+import "@fontsource/poppins/400.css"; // Specify weight
+import "@fontsource/poppins/400-italic.css";
 
 function App() {
   return (
-    <>
-      <Header location={<SelectDeliveryLocation />} />
-    </>
+    <div>
+      <Header />
+      <Home />
+      <Footer />
+    </div>
   );
 }
 
